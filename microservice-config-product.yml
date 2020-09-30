@@ -8,7 +8,7 @@ server:
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml 
   type-aliases-package: com.mengxuegu.springcloud.microservicecloud02api.entities
-  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  #mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: dev # 开发环境
   application:
@@ -40,7 +40,7 @@ server:
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml 
   type-aliases-package: com.mengxuegu.springcloud.microservicecloud02api.entities
-  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  #mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: prod # 生产环境
   application:
